@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 .interested_box{display: inline-block; margin-right: 10px; text-align: center;}
 .iframe_box{display: inline-block; margin-right: 10px;}
-span{text-align: center; font-size: 1.5em;}
-.introduce{display: inline-block; text-align: left;}
+span{text-align: center; font-size: 1.5em;font-family: 'Bebas Neue', cursive;}
+.introduce{display: inline-block; text-align: left; font-family: 'Bebas Neue', cursive; font-size: 2em;}
 body{text-align: center;}
+h1{font-family: 'Bebas Neue', cursive; font-size: 3em;}
+section{background-color:rgb(254, 250, 244);}
