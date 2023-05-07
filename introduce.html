@@ -3,38 +3,49 @@
     <head>
         <meta charset="UTF-8">
         <title>자기소개서</title>
+        <style>
+            @import url(style.css);
+        </style>
     </head>
     <body>
-        <h1>Introduce my self</h1>
-        <img src="image/me.jpg" alt="My Image" width="300">
-        <ul>
-            <li>Name: Yang Ju Yeol</li>
-            <li>Student ID: 32192539</li>
-            <li>Major: Software Engineering</li>
-            <li>Age: 24</li>
-            <li>MBTI: INTP</li>
-        </ul>
+        <div>
+            <h1>Introduce my self</h1>
+            <img src="image/me.jpg" alt="My Image" width="300">
+            <ul class="introduce">
+                <li>Name: Yang Ju Yeol</li>
+                <li>Student ID: 32192539</li>
+                <li>Major: Software Engineering</li>
+                <li>Age: 24</li>
+                <li>MBTI: INTP</li>
+            </ul>
+        </div>
         <h1>Intersted in...</h1>
         <div>
-            <div>
+            <div class="interested_box">
                 <img src = "https://img.redbull.com/images/c_fill,g_auto,w_1170,h_658/q_auto,f_auto/redbullcom/2020/5/12/rxzogmvrd0gli36dyop0/v" alt="valorant" width="300">
-                GAME
+                <br>
+                <span>GAME</span>
             </div>
-            <div>
+            <div class="interested_box">
                 <img src="https://img.freepik.com/free-vector/badminton-abstract-concept-vector-illustration-racket-sport-outdoor-recreational-activity-badminton-tournament-sporting-goods-people-playing-club-training-competition-abstract-metaphor_335657-4287.jpg" alt="badminton" width="300" height="200">
-                BADMINTON
+                <br>
+                <span>BADMINTON</span>
             </div>
-            <div>
+            <div class="interested_box">
                 <img src="https://pbs.twimg.com/media/EH5KFBLUEAA3KN9.jpg" alt="singing" width="300">
-                SINGING
+                <br>
+                <span>SINGING</span>
             </div>
         </div>
         <h1>Favorite Song</h1>
         <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/va5rf20Un24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="iframe_box">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/va5rf20Un24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="iframe_box">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8XDI2kk6qQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
         </div>
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/8XDI2kk6qQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
+        <footer></footer>
     </body>
 </html>

@@ -1,3 +1,5 @@
-.interested_box{display: inline-block;}
-.iframe_box{display: inline-block;}
-span{text-align: center;}
+.interested_box{display: inline-block; margin-right: 10px; text-align: center;}
+.iframe_box{display: inline-block; margin-right: 10px;}
+span{text-align: center; font-size: 1.5em;}
+.introduce{display: inline-block; text-align: left;}
+body{text-align: center;}
